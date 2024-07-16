@@ -1,0 +1,116 @@
+{
+  "student": [
+    {
+      "id": "bc8f",
+      "name": "Dhaval Rana",
+      "email": "ranadhaval914@gmail.com",
+      "age": 20,
+      "class": "TY",
+      "address": "Surat,Gujarat,India",
+      "gender": "Male",
+      "isActive": true
+    },
+    {
+      "id": "08b1",
+      "name": "dhaval",
+      "email": "Dhaval@gmail.com",
+      "age": 20,
+      "class": "3",
+      "address": "gyyuuzydy",
+      "gender": "Male",
+      "isActive": true
+    },
+    {
+      "id": "429f",
+      "name": "Dhaval",
+      "email": "Dhaal@gmail.com",
+      "age": 22,
+      "class": "6",
+      "address": "sura",
+      "gender": "Male",
+      "isActive": true
+    },
+    {
+      "id": "2528",
+      "name": "Dhaval",
+      "email": "Dhaal@gmail.com",
+      "age": 22,
+      "class": "6",
+      "address": "sura",
+      "gender": "Male",
+      "isActive": true
+    },
+    {
+      "id": "d69d",
+      "name": "Dhaval",
+      "email": "Dhaval@gmail.com",
+      "age": 20,
+      "class": "FY",
+      "address": "surat,india",
+      "gender": "Male",
+      "isActive": true
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": 1
+    },
+    {
+      "id": "2",
+      "name": 2
+    },
+    {
+      "id": "3",
+      "name": 3
+    },
+    {
+      "id": "4",
+      "name": 4
+    },
+    {
+      "id": "5",
+      "name": 5
+    },
+    {
+      "id": "6",
+      "name": 6
+    },
+    {
+      "id": "7",
+      "name": 7
+    },
+    {
+      "id": "8",
+      "name": 8
+    },
+    {
+      "id": "9",
+      "name": 9
+    },
+    {
+      "id": "10",
+      "name": 10
+    },
+    {
+      "id": "11",
+      "name": 11
+    },
+    {
+      "id": "12",
+      "name": 12
+    },
+    {
+      "id": "13",
+      "name": "FY"
+    },
+    {
+      "id": "14",
+      "name": "SY"
+    },
+    {
+      "id": "15",
+      "name": "TY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+
+<form [formGroup]="studentForm">
+  <h1>Registration form </h1>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Name</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name" formControlName="name">
+  </div>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" formControlName="email">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Age</label>
+    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="age" formControlName="age">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Class</label> <br>
+<select name="form-select" id="name" placeholder="Class" formControlName="class">
+<option value="1">1th</option>
+<option value="2">2th</option>
+<option value="3">3th</option>
+<option value="4">4th</option>
+<option value="5">5th</option>
+<option value="6">6th</option>
+<option value="7">7th</option>
+<option value="8">8th</option>
+<option value="9">9th</option>
+<option value="10">10th</option>
+<option value="11">11th</option>
+<option value="12">12th</option>
+<option value="FY">FY</option>
+<option value="SY">SY</option>
+<option value="TY">TY</option>
+
+</select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Address</label>
+    <textarea type="address" class="form-control" id="exampleFormControlInput1" placeholder="Address" formControlName="address"></textarea>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="isActive" id="isActive" formControlName="isActive">
+    <label class="form-check-label" for="flexCheckDefault">
+      is Active
+    </label>
+  </div>
+  <h4>Gender</h4>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="gender" value="Male" formControlName="gender">
+    <label class="form-check-label">
+      Male
+    </label>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="gender" value="Female" formControlName="gender">
+    <label class="form-check-label">
+      Female
+    </label>
+  </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="submit" (click)="saveStudent()" [disabled]="studentForm.invalid">Submit</button>
+    <button class="btn btn-primary" type="reset" (click)="resetForm()">Reset</button>
+  </div>
+</form>
+   
+   
