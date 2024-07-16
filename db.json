@@ -9,46 +9,6 @@
       "address": "Surat,Gujarat,India",
       "gender": "Male",
       "isActive": true
-    },
-    {
-      "id": "08b1",
-      "name": "dhaval",
-      "email": "Dhaval@gmail.com",
-      "age": 20,
-      "class": "3",
-      "address": "gyyuuzydy",
-      "gender": "Male",
-      "isActive": true
-    },
-    {
-      "id": "429f",
-      "name": "Dhaval",
-      "email": "Dhaal@gmail.com",
-      "age": 22,
-      "class": "6",
-      "address": "sura",
-      "gender": "Male",
-      "isActive": true
-    },
-    {
-      "id": "2528",
-      "name": "Dhaval",
-      "email": "Dhaal@gmail.com",
-      "age": 22,
-      "class": "6",
-      "address": "sura",
-      "gender": "Male",
-      "isActive": true
-    },
-    {
-      "id": "d69d",
-      "name": "Dhaval",
-      "email": "Dhaval@gmail.com",
-      "age": 20,
-      "class": "FY",
-      "address": "surat,india",
-      "gender": "Male",
-      "isActive": true
     }
   ],
   "classes": [
